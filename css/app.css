@@ -44,8 +44,8 @@ p {
 }
 
 .right-img {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 70px;
     margin-left: 5.0em;
     margin-bottom: 0.2em;
     align: right;
