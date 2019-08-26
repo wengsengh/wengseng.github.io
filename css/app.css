@@ -1,11 +1,14 @@
 /*** Site Colors ***
-
 pale-grey: #fafbfc
 pale-grey-two: #dbe2e8
 dark: #2e3d49
 bluegrey: #7d97ad
 aquamarine: #02ccba
-
+mediumaquamarine: #02b1a5
+/***Image Sizes***
+front-page header: 2110 * 812
+article header: 778 * 286
+portfolio: 428 * 286
 */
 
 html {
@@ -38,12 +41,35 @@ p {
     line-height: 1.5;
 }
 
+code {
+    font-family:'Consolas', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New';
+}
+
+dl {
+    line-height: 1.5;
+}
+
+li {
+    line-height: 1.5;
+}
+
+/*** Link Styling ***/
+a:link {
+    color: #02b1a5;
+}
+
+a:visited {
+    color: #7d97ad;
+}
+
+a:active {
+    color: #02ccba;
+}
+
 .container {
     margin: auto;
     max-width: 1300px;
 }
-
-
 
 /*** Header Styling ***/
 .page-header {
@@ -51,6 +77,15 @@ p {
     background-position: 50% 75%;
     background-size: cover;
     text-align: center;
+    padding: 1em;
+    margin-bottom: 2rem;
+    min-height: 25vh;
+}
+
+.blog-header {
+    background-image: url('../img/headerimage.jpg');
+    background-position: 50% 75%;
+    background-size: cover;
     padding: 1em;
     margin-bottom: 2rem;
     min-height: 25vh;
@@ -110,6 +145,13 @@ article img {
     align: right;
 }
 
+.centre-img {
+    width: auto;
+    height: 100%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
 .read-more {
     color: #02ccba;
     font-family: 'Open Sans', sans-serif;
@@ -137,6 +179,27 @@ aside {
 .social-link {
     display: inline-block;
     margin-right: 0.75em;
+}
+
+
+/*** Page Navigation ***/
+.PageNavigation {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.0;
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+.PageNavigation a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+}
+
+.PageNavigation .next {
+    text-align: right;
 }
 
 
@@ -195,6 +258,7 @@ footer {
         margin-top: 0.5em;
     }
 }
+
 
 /*** Helper Classes ***/
 
