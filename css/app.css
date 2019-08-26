@@ -43,11 +43,6 @@ p {
     max-width: 1300px;
 }
 
-.right-img {
-    width: 100px;
-    height: 70px;
-    align: right;
-}
 
 
 /*** Header Styling ***/
@@ -97,6 +92,22 @@ time {
 article img {
     height: auto;
     width: 100%;
+}
+
+.left-img {
+    width: auto;
+    height: 100%;
+    margin-right: 1.0em;
+    margin-bottom: 0.2em;
+    align: left;
+}
+
+.right-img {
+    width: auto;
+    height: 100%;
+    margin-left: 1.0em;
+    margin-bottom: 0.2em;
+    align: right;
 }
 
 .read-more {
