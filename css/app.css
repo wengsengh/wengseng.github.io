@@ -43,6 +43,14 @@ p {
     max-width: 1300px;
 }
 
+.right-img {
+    width: auto;
+    height: 100%;
+    margin-left: 1.0em;
+    margin-bottom: 0.2em;
+    align: right;
+}
+
 
 /*** Header Styling ***/
 .page-header {
