@@ -76,7 +76,6 @@ a:active {
     background-image: url('../img/headerimage.jpg');
     background-position: 50% 75%;
     background-size: cover;
-    text-align: center;
     padding: 1em;
     margin-bottom: 2rem;
     min-height: 25vh;
